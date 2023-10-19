@@ -1,4 +1,4 @@
-// Copyright (c) 2021 Lily Carroll All rights reserved.
+// Copyright (c) 2023 Lily Carroll All rights reserved.
 //
 // Created by: Lily Carroll
 // Created on: Oct/13/2023
@@ -15,13 +15,13 @@ int main() {
     std::cout << "Enter an integer: ";
     std::cin >> userNumber;
 
-    // Using if condition for positive integers.
+    // Using If condition for positive integers.
     // Using Else If condition for negative integers.
     // Using Else condition for the integer 0.
     if (userNumber > 0) {
-        std::cout << "Your number is positive.";
+        std::cout << userNumber << " is positive.";
     } else if (userNumber < 0) {
-        std::cout << "Your number is negative.";
+        std::cout << userNumber <<" is negative.";
     } else {
         std::cout << "Your number is 0.";
     }
